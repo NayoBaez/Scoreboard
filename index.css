@@ -1,11 +1,20 @@
 body {
   margin: 50px;
+  background: #f9f7fe;
+}
+
+:root {
+  --branding-color: #e76435;
+  --secondary-color: #2a7291;
+  --box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  --default-font-family: "Orbitron", sans-serif;
+  --secondary-font-family: "Poppins", sans-serif;
 }
 
 .container {
   max-width: 800px;
   border-radius: 6px;
-  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  box-shadow: var(--box-shadow);
   padding: 50px 0px;
   margin: 0px auto;
 }
@@ -23,60 +32,73 @@ img {
 }
 
 h3 {
-  font-family: "Orbitron", sans-serif;
+  font-family: var(--default-font-family);
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  color: #eeeeee;
+  color: #b2b5b9;
 }
 
 .home,
 .guest {
   border-radius: 4px;
-  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
-  padding: 20px 80px;
+  box-shadow: var(--box-shadow);
+  padding: 15px 80px;
   margin-top: 30px;
 }
 
 .home-score,
 .guest-score {
   padding: 10px;
-  background: #f9f9f9;
+  background: #f3f3f3;
   border-radius: 4px;
-  font-family: "Cursed Timer ULiL";
-  font-style: normal;
-  font-weight: 400;
   font-size: 80px;
+  font-family: var(--default-font-family);
+  font-weight: 400;
   color: #53a8b6;
   text-align: center;
-  font-family: "Orbitron", sans-serif;
 }
 
 button {
   margin: 25px 0px 5px 0px;
   padding: 15px;
-  background: transparent;
-  font-family: "Cursed Timer ULiL";
+  background: var(--branding-color);
   border-radius: 4px;
-  border: solid 1px #5585b5;
-  color: #5585b5;
-  font-family: "Orbitron", sans-serif;
+  border: solid 1px var(--branding-color);
+  color: white;
+  font-family: var(--default-font-family);
+}
+
+button:hover {
+  background: white;
+  color: var(--branding-color);
 }
 
 .reset-button {
-  padding: 10px 25px;
-  font-family: "Orbitron", sans-serif;
+  padding: 15px 32px;
+  font-family: var(--secondary-font-family);
+  background: var(--secondary-color);
+  border-color: var(--secondary-color);
+  font-size: 15px;
+  color: white;
+}
+
+.reset-button:hover {
+  background: white;
+  color: var(--secondary-color);
 }
 
 .newgame-button {
-  padding: 20px;
+  padding: 20px 280px;
   text-align: center;
-  width: 85%;
-  background: #5585b5;
+  background: var(--branding-color);
   color: white;
   display: flex;
   margin: 30px auto;
-  font-family: "Orbitron", sans-serif;
+  font-family: var(--default-font-family);
+  font-weight: 700;
+  font-size: 25px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 3%);
 }
