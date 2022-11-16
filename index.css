@@ -1,15 +1,29 @@
 body {
-  margin: 0;
+  margin: 50px;
 }
 
 .container {
+  max-width: 800px;
+  border-radius: 6px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  padding: 50px 0px;
+  margin: 0px auto;
+}
+
+.scoreboard {
   display: flex;
   justify-content: space-around;
-  background: #1b244a;
+}
+
+img {
+  display: block;
+  margin: 5px auto;
+  border-radius: 6px;
+  max-width: 700px;
 }
 
 h3 {
-  font-family: "Verdana";
+  font-family: "Orbitron", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -18,36 +32,51 @@ h3 {
   color: #eeeeee;
 }
 
+.home,
+.guest {
+  border-radius: 4px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  padding: 20px 80px;
+  margin-top: 30px;
+}
+
 .home-score,
 .guest-score {
   padding: 10px;
-  background: black;
+  background: #f9f9f9;
   border-radius: 4px;
   font-family: "Cursed Timer ULiL";
   font-style: normal;
   font-weight: 400;
   font-size: 80px;
-  color: #f94f6d;
+  color: #53a8b6;
   text-align: center;
+  font-family: "Orbitron", sans-serif;
 }
 
 button {
   margin: 25px 0px 5px 0px;
-  padding: 10px;
+  padding: 15px;
   background: transparent;
   font-family: "Cursed Timer ULiL";
   border-radius: 4px;
-  border: solid 1px #9aabd8;
-  color: #9aabd8;
+  border: solid 1px #5585b5;
+  color: #5585b5;
+  font-family: "Orbitron", sans-serif;
 }
 
 .reset-button {
   padding: 10px 25px;
+  font-family: "Orbitron", sans-serif;
 }
 
 .newgame-button {
-  padding: 10px 150px;
-  background: #9aabd8;
-  color: #1b244a;
-  margin-bottom: 50px;
+  padding: 20px;
+  text-align: center;
+  width: 85%;
+  background: #5585b5;
+  color: white;
+  display: flex;
+  margin: 30px auto;
+  font-family: "Orbitron", sans-serif;
 }
