@@ -1,14 +1,13 @@
-[![MasterHead](https://raw.githubusercontent.com/NayoBaez/Passenger-Counter/main/GITHUB%20README%20BANNER%20-PASSENGER%20COUNTER.png)](https://nayobaez.com)
+[![MasterHead](https://raw.githubusercontent.com/NayoBaez/Scoreboard/main/GITHUB%20README%20BANNERS-SCOREBOARD.png)](https://nayobaez.com)
 
 # SCOREBOARD
 
-I built this A game score tracker with the Scrimba course to brush up my Javascript skills. The app relies on DOM manipulation to track the game score and resets each counter individually but also resets the whole game, when pressing the right button. 
+I built this game score tracker from scratch as part of a scribe challenge. I was given the task to create this solo project based on a Figma design, although the stretch challenge was to personalise the design which I did. The app relies on DOM manipulation to track the game score and resets each counter individually but also resets the whole game, when pressing on the new game button. 
 
 
 ## Tech Stack
 
 HTML, CSS & Javascript 
-
 
 
 
