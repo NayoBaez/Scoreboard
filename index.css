@@ -6,6 +6,7 @@ body {
 :root {
   --branding-color: #e76435;
   --secondary-color: #2a7291;
+  --basic-color: #b2b5b9;
   --box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
   --default-font-family: "Orbitron", sans-serif;
   --secondary-font-family: "Poppins", sans-serif;
@@ -17,6 +18,7 @@ body {
   box-shadow: var(--box-shadow);
   padding: 50px 0px;
   margin: 0px auto;
+  text-align: center;
 }
 
 .scoreboard {
@@ -38,7 +40,7 @@ h3 {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  color: #b2b5b9;
+  color: var(--basic-color);
 }
 
 .home,
@@ -78,11 +80,11 @@ button:hover {
 
 .reset-button {
   padding: 15px 32px;
-  font-family: var(--secondary-font-family);
   background: var(--secondary-color);
   border-color: var(--secondary-color);
   font-size: 15px;
   color: white;
+  font-family: var(--secondary-font-family);
 }
 
 .reset-button:hover {
@@ -101,4 +103,19 @@ button:hover {
   font-weight: 700;
   font-size: 25px;
   box-shadow: 0 30px 50px rgb(65 50 100 / 3%);
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: var(--basic-color);
+  font-family: var(--secondary-font-family);
+}
+
+.footer-link a:hover {
+  text-decoration: underline;
+  color: #2077f6;
+}
+.footer-name {
+  font-family: var(--secondary-font-family);
+  color: var(--basic-color);
 }
