@@ -4,6 +4,7 @@
 
 I built this game score tracker from scratch as part of a scribe challenge. I was given the task to create this solo project based on a Figma design, although the stretch challenge was to personalise the design which I did. The app relies on DOM manipulation to track the game score and resets each counter individually but also resets the whole game, when pressing on the new game button. 
 
+<img align="right" alt="travelproject" width="350" src="https://raw.githubusercontent.com/NayoBaez/Scoreboard/8ec2f7ae65b85ba05b9d0b93d14984c292611f05/scoreboard.png"></img>
 
 ## Tech Stack
 
